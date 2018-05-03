@@ -4,6 +4,7 @@ def turn_count(board)
     if square != " " || square != "" || square != null
       count += 1
     end
+    return count
   end
 end
 
